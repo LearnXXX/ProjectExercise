@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>ConfigEncrypt</Title>
+    <Authors>SBI Liquidity Market</Authors>
+    <Description>202409Release_CHG0030277</Description>
+    <Copyright>Copyright(C) SBI Liquidity Market Co., Ltd.</Copyright>
+    <AssemblyVersion>2024.03.20.1</AssemblyVersion>
+    <FileVersion>2024.03.20.1</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Lib\System.Configuration.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
